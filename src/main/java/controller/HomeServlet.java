@@ -38,7 +38,7 @@ public class HomeServlet extends HttpServlet {
 
                 req.setAttribute("indexEdit", indexEdit);
                 req.setAttribute("editStudent", students);
-                dispatcher = req.getRequestDispatcher("/view/EditProducts.jsp");
+                dispatcher = req.getRequestDispatcher("/view/EditStudent.jsp");
                 dispatcher.forward(req, resp);
                 break;
             case "delete":
